@@ -1,0 +1,30 @@
+{
+  "name": "bem-it",
+  "version": "1.0.0",
+  "description": "Introduction into BEM",
+  "main": "index.js",
+  "dependencies": {
+    "shower-core": "^1.0.7",
+    "shower-ribbon": "^1.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:varya/bem-it.git"
+  },
+  "keywords": [
+    "bem",
+    "css",
+    "javascript",
+    "modules"
+  ],
+  "author": "Varya Stepanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varya/bem-it/issues"
+  },
+  "homepage": "https://github.com/varya/bem-it"
+}
