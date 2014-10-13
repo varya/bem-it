@@ -1,0 +1,40 @@
+.slide
+{
+  font-size: 125%;
+}
+
+.slide p
+{
+  margin: 0 0 0.5em;
+  line-height: 1.5em;
+}
+
+.slide ul
+{
+  margin: 0, 0, 0.5em;
+  line-height: 1.5em;
+}
+
+.slide ul li
+{
+  margin: 0 0 0.25em;
+}
+
+.slide.shout h3
+{
+  position:absolute;
+  top:50%;
+  left:128px;
+  right:96px;
+  color:#FFF;
+  font-size:80px;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%)
+}
+
+.slide .sub-list
+{
+  font-size: 0.85em;
+  margin-top: 0.25em;
+}

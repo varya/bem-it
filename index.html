@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=792, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="node_modules/shower-bright/styles/screen.css">
+	<link rel="stylesheet" href="my.css">
 </head>
 <body class="list">
 	<header class="caption">
@@ -51,7 +52,94 @@
 					color:#FFF;
 					}
 		</style>
-	</div></section>
+  </div></section>
+  <section class="slide shout"><div>
+    <h2>Why bother?</h2>
+  </div></section>
+  <section class="slide"><div>
+    <p>There is <b>no unified semantic model</b> across different FE technologies</p>
+    <ul>
+      <li>HTML stands for hypertext<br/>
+        <i>I've heard we mostly do web apps...</i>
+      </li>
+      <li>CSS offers no structure out of the box<br/>
+        <i>Usually a pile of rules put together. Sorry.</i>
+      </li>
+      <li>JavaScript uses its own approaches.<br/>
+        <i>...a new one comes with every framework.</i>
+      </li>
+    </ul>
+  </div></section>
+  <section class="slide"><div>
+    <p>Frameworks are not enough</p>
+    <ul>
+      <li>
+        <b>≈ 8,500</b> packages in Bower registry
+      </li>
+      <li>
+        <b>JavaScript</b> is the most popular language on GitHub
+        <div class="remark">
+          Repositories created:<br/>
+          ≈ 264,000 in 2013<br/>
+          ≈ 296,000 in 2012
+        </div>
+      </li>
+    </ul>
+    <style>
+      .remark {
+        color: gray;
+        margin: 0;
+        text-indent: 0;
+        margin-top: 1em;
+      }
+    </style>
+  </div></section>
+  <section class="slide shout"><div>
+    <h3>BEM to the rescue</h3>
+  </div></section>
+  <section class="slide" id="what-is-bem"><div>
+    <h3>What is BEM?</h3>
+    <p><b>BEM</b> claims that simple semantic model (<b>B</b>locks, <b>E</b>lements, and <b>M</b>odifiers)
+    is enough to define the way you author HTML / CSS / JavaScript, structure code and components, set up interaction
+    and scale your project to build an industry-leading service.</p>
+    <style>
+      #what-is-bem h3 {
+        font-size: 125%;
+        font-weight: bold;
+      }
+      #what-is-bem p {
+        font-size: 125%;
+      }
+    </style>
+  </div></section>
+  <section class="slide" id="what-is-bem2"><div>
+    <h3>What is BEM?</h3>
+    <ul>
+      <li><b>BEM is a methodology</b>, not a framework<br/>
+        Semantic model + best practices
+        for all things frontend
+        </li>
+        <li><b>BEM is a fix</b> for web app semantics<br/>
+          ...the same as jQuery is a fix for DOM APIs
+        </li>
+        <li>Originally introduced by <div class="yandex">Yandex</div>
+          <ul class="sub-list">
+            <li>19 million daily audience</li>
+            <li>200+ web services</li>
+            <li>tools, code, tutorials, conferences — open source</li>
+        </li>
+    </ul>
+    <style>
+      #what-is-bem2 h3 {
+        font-size: 125%;
+        font-weight: bold;
+      }
+      .yandex::first-letter {
+        display: inline;
+        color: red;
+      }
+    </style>
+  </div></section>
   <!--<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>-->
 	<!--
 		To hide progress bar from entire presentation
